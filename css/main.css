@@ -1,0 +1,50 @@
+:root {
+  --brand-color: #099d8d;
+  --names-color: #000;
+  --general-text-color: #54585a;
+}
+
+.adalabers {
+  background-color: #fff;
+  width: 320px;
+  height: fit-content;
+  padding: 30px 15px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adalabers-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titles {
+  font-family: "Rubik", sans-serif;
+  color: var(--brand-color);
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+}
+.adalabers-images {
+  width: 180px;
+  height: 180px;
+  margin: 30px 0 15px 0;
+  border: 5px rgba(0, 0, 0, 0.08) solid;
+  border-radius: 4px;
+}
+.adalabers-names {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  color: var(--names-color);
+}
+.adalabers-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--general-text-color);
+}
