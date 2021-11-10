@@ -1,0 +1,72 @@
+/* 
+------HEADER & HERO------- */
+body {
+  width: 100%;
+}
+
+.team-name {
+  background-color: #099d8d;
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #14d9c4;
+  color: white;
+  height: 45px;
+  opacity: 0.9;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  font-weight: bold;
+}
+
+.ul-style-nav {
+  display: flex;
+}
+
+.team-li {
+  margin: 10px 15px 0 0;
+  height: 30px;
+}
+
+.about-us-li {
+  height: 30px;
+  margin: 10px 15px 0;
+}
+
+.contact-li {
+  height: 30px;
+  margin: 10px 0 0 15px;
+}
+
+.header-image {
+  background-image: url("../imagen-hero.jpeg");
+  height: 421px;
+  margin: 0 0 46px;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-top: 350px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 14px 15px 16px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  transform: translateY(-100%);
+}
