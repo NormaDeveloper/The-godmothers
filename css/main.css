@@ -2,6 +2,7 @@
   --brand-color: #099d8d;
   --names-color: #000;
   --general-text-color: #54585a;
+  /* OpenSans ¿? */
 }
 
 .adalabers {
@@ -60,4 +61,33 @@
   height: 30px;
   transform: rotate(45deg) translate(-50%, -50%);
   background-color: #fff;
+}
+/* -------------------------------- FOOTER----------------------------------- */
+footer {
+  width: 320px;
+  height: 250px;
+  border-top: 1px solid #b8b8b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+.footer-copyright {
+  color: #b8b8b9;
+}
+.footer-img {
+  width: 115.9px;
+  height: 45px;
+  order: 1;
+}
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-nav-a {
+  color: var(--general-text-color);
+  text-decoration: none;
 }
