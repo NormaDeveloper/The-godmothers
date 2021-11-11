@@ -3,7 +3,7 @@
   --brand-color: #099d8d;
   --names-color: #000;
   --general-text-color: #54585a;
-  /* OpenSans ¿? */
+  --general-font-family: "Open Sans", sans-serif;
 }
 
 /* ------HEADER & HERO------- */
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--general-font-family);
   font-size: 16px;
   font-weight: bold;
 }
@@ -32,7 +32,7 @@ body {
   color: white;
   height: 45px;
   opacity: 0.9;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--general-font-family);
   align-items: center;
   font-weight: bold;
 }
@@ -73,7 +73,7 @@ body {
   margin-right: 5%;
   padding: 14px 15px 16px;
   background-color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--general-font-family);
   font-size: 18px;
   font-weight: 600;
   transform: translateY(-100%);
@@ -111,7 +111,7 @@ body {
   border-radius: 4px;
 }
 .adalabers-names {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--general-font-family);
   font-size: 20px;
   line-height: 45px;
   text-align: center;
@@ -119,7 +119,7 @@ body {
 }
 .adalabers-text,
 .dot-between {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--general-font-family);
   font-size: 16px;
   line-height: 24px;
   text-align: center;
@@ -187,7 +187,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--general-font-family);
   font-size: 14px;
   padding-bottom: 45px;
   padding-top: 30px;
