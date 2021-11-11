@@ -1,9 +1,11 @@
 /* Custom properties */
 :root {
   --brand-color: #099d8d;
-  --names-color: #000;
-  --general-text-color: #54585a;
-  --general-font-family: "Open Sans", sans-serif;
+  --secondary-color: #14d9c4;
+  --black-color: #000;
+  --grey-color: #54585a;
+  --primary-font-family: "Open Sans", sans-serif;
+  --title-font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 /* ------HEADER & HERO------- */
 
 .team-name {
-  background-color: #099d8d;
+  background-color: var(--brand-color);
   height: 60px;
   padding: 15px 80px;
   opacity: 0.95;
@@ -27,7 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: var(--general-font-family);
+  font-family: var(--title-font-family);
   font-size: 16px;
   font-weight: bold;
 }
@@ -35,11 +37,11 @@ body {
 .nav {
   display: flex;
   justify-content: space-around;
-  background-color: #14d9c4;
+  background-color: var(--secondary-color);
   color: white;
   height: 45px;
   opacity: 0.9;
-  font-family: var(--general-font-family);
+  font-family: var(--title-font-family);
   align-items: center;
   font-weight: bold;
 }
@@ -69,7 +71,6 @@ body {
 
 .header-image {
   background-image: url("../images/herono-mobile-v4.jpg");
-
   height: 421px;
   margin: 0 0 46px;
   position: relative;
@@ -85,7 +86,7 @@ body {
   margin-right: 5%;
   padding: 14px 15px 16px;
   background-color: white;
-  font-family: var(--general-font-family);
+  font-family: var(--primary-font-family);
   font-size: 18px;
   font-weight: 600;
   transform: translateY(-100%);
@@ -126,19 +127,19 @@ body {
   border-radius: 4px;
 }
 .adalabers-names {
-  font-family: var(--general-font-family);
+  font-family: var(--primary-font-family);
   font-size: 20px;
   line-height: 45px;
   text-align: center;
-  color: var(--names-color);
+  color: var(--black-color);
 }
 .adalabers-text,
 .dot-between {
-  font-family: var(--general-font-family);
+  font-family: var(--primary-font-family);
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: var(--general-text-color);
+  color: var(--grey-color);
   margin-bottom: 15px;
 }
 .fab,
@@ -204,7 +205,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: var(--general-font-family);
+  font-family: var(--primary-font-family);
   font-size: 14px;
   padding-bottom: 45px;
   padding-top: 30px;
@@ -225,6 +226,6 @@ body {
   font-weight: 600;
 }
 .footer-nav-a {
-  color: var(--general-text-color);
+  color: var(--grey-color);
   text-decoration: none;
 }
