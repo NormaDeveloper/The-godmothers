@@ -30,6 +30,10 @@ body {
   font-weight: bold;
 }
 
+.main-nav-a {
+  color: white;
+}
+
 .ul-style-nav {
   display: flex;
 }
