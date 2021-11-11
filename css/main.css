@@ -151,19 +151,21 @@ body {
 /*------------------ Container-------------*/
 
 .container {
-  margin: 0 15px;
+  margin: 15px;
 }
 
-/* .rectangle {
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg) translate(-50%, -50%);
-  background-color: pink;
-} */
 /* -------FORTALEZAS Y DEBILIDADES------- */
 .strengths-and-weakness {
   background-color: rgba(184, 184, 185, 0.2);
 }
+.title-strengths-and-weakness {
+  font-family: "Rubik", sans-serif;
+  color: var(--brand-color);
+  font-size: 22px;
+  line-height: 45px;
+  text-align: center;
+}
+
 .rectangle {
   width: 30px;
   height: 30px;
@@ -174,10 +176,10 @@ body {
 }
 
 .fortalezas {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .debilidades {
-  padding-bottom: 46px;
+  padding-bottom: 30px;
 }
 /* -------------------------------- FOOTER----------------------------------- */
 .footer {
