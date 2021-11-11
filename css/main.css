@@ -8,14 +8,23 @@
   --title-font-family: "Rubik", sans-serif;
 }
 
+/*--------------- COMUNES -------------------*/
+
 body {
   width: 100%;
 }
 
-/*------------------ Container-------------*/
+.text {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  line-height: 24px;
+  text-align: center;
+  color: var(--grey-color);
+  margin-top: 15px;
+}
 
 .container {
-  margin: 15px;
+  margin: 0px 15px;
 }
 
 /* ------HEADER & HERO------- */
@@ -107,14 +116,6 @@ body {
   font-family: var(--title-font-family);
   font-size: 24px;
   text-align: center;
-}
-
-.about-us-text {
-  font-size: 16px;
-  font-family: var(--primary-font-family);
-  line-height: 24px;
-  text-align: center;
-  color: var(--grey-color);
   margin-top: 15px;
 }
 
@@ -123,11 +124,12 @@ body {
 }
 
 /* -------FORTALEZAS Y DEBILIDADES------- */
+
 .strengths-and-weakness {
   background-color: rgba(184, 184, 185, 0.2);
 }
 .title-strengths-and-weakness {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--title-font-family);
   color: var(--brand-color);
   font-size: 22px;
   line-height: 45px;
@@ -168,7 +170,7 @@ body {
   padding: 0 0 50px;
 }
 .titles {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--title-font-family);
   color: var(--brand-color);
   font-size: 24px;
   line-height: 45px;
@@ -189,15 +191,7 @@ body {
   text-align: center;
   color: var(--black-color);
 }
-.adalabers-text,
-.dot-between {
-  font-family: var(--primary-font-family);
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: var(--grey-color);
-  margin-bottom: 15px;
-}
+
 .fab,
 .fas {
   margin: 15px 3px 0;
