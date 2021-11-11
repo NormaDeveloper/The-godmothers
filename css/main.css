@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 30px 50px;
+  padding: 0 0 50px;
 }
 .titles {
   font-family: "Rubik", sans-serif;
@@ -105,7 +105,7 @@ body {
   font-size: 24px;
   line-height: 45px;
   text-align: center;
-  margin: 40px 0 30px;
+  margin: 15px 0 30px;
 }
 .adalabers-images {
   width: 180px;
