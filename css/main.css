@@ -94,6 +94,62 @@ body {
   text-align: justify;
 }
 
+/*-------------- ABOUT US ------------------*/
+
+.about-us {
+  margin-bottom: 30px;
+  padding-top: 1px;
+}
+
+.about-us .title {
+  line-height: 45px;
+  color: var(--secondary-color);
+  font-family: var(--title-font-family);
+  font-size: 24px;
+  text-align: center;
+}
+
+.about-us-text {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  line-height: 24px;
+  text-align: center;
+  color: var(--grey-color);
+  margin-top: 15px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+/* -------FORTALEZAS Y DEBILIDADES------- */
+.strengths-and-weakness {
+  background-color: rgba(184, 184, 185, 0.2);
+}
+.title-strengths-and-weakness {
+  font-family: "Rubik", sans-serif;
+  color: var(--brand-color);
+  font-size: 22px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.rectangle {
+  width: 30px;
+  height: 30px;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: white;
+}
+
+.fortalezas {
+  padding-bottom: 15px;
+}
+.debilidades {
+  padding-bottom: 30px;
+}
+
 /* ------------- Adalabers ---------------- */
 
 .adalabers {
@@ -150,48 +206,6 @@ body {
   color: var(--brand-color);
 }
 
-/*-------------- ABOUT US ------------------*/
-
-.about-us {
-  margin-bottom: 30px;
-  padding-top: 1px;
-}
-
-.about-us .titles {
-  margin-top: 30px;
-}
-
-.quote {
-  font-style: italic;
-}
-
-/* -------FORTALEZAS Y DEBILIDADES------- */
-.strengths-and-weakness {
-  background-color: rgba(184, 184, 185, 0.2);
-}
-.title-strengths-and-weakness {
-  font-family: "Rubik", sans-serif;
-  color: var(--brand-color);
-  font-size: 22px;
-  line-height: 45px;
-  text-align: center;
-}
-
-.rectangle {
-  width: 30px;
-  height: 30px;
-  left: 50%;
-  position: relative;
-  transform: translate(-50%, -50%) rotate(45deg);
-  background-color: white;
-}
-
-.fortalezas {
-  padding-bottom: 15px;
-}
-.debilidades {
-  padding-bottom: 30px;
-}
 /* -------------------------------- FOOTER----------------------------------- */
 
 .footer {
