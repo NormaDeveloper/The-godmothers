@@ -246,5 +246,11 @@ body {
 
 /* -------- TABLET ------- */
 
-@media all and (min-width: 768) {
+@media all and (min-width: 768px) {
+  /*-------------- ABOUT US sin cambios para tablet ------------------*/
+
+  /* -------FORTALEZAS Y DEBILIDADES------- */
+  .strengths-and-weakness-div {
+    display: flex;
+  }
 }
