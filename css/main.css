@@ -243,3 +243,8 @@ body {
   color: var(--grey-color);
   text-decoration: none;
 }
+
+/* -------- TABLET ------- */
+
+@media all and (min-width: 768) {
+}
