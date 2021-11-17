@@ -1,5 +1,73 @@
-.page__header {
+.team-name {
+  background-color: var(--brand-color);
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--title-font-family);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--secondary-color);
+  color: white;
+  height: 45px;
+  opacity: 0.9;
+  font-family: var(--title-font-family);
+  align-items: center;
+  font-weight: bold;
+}
+
+.main-nav-a {
+  color: white;
+}
+
+.ul-style-nav {
+  display: flex;
+}
+
+.team-li {
+  margin: 10px 15px 0 0;
+  height: 30px;
+}
+
+.about-us-li {
+  height: 30px;
+  margin: 10px 15px 0;
+}
+
+.contact-li {
+  height: 30px;
+  margin: 10px 0 0 15px;
+}
+
+.header-image {
+  background-image: url("../images/herono-mobile-v4.jpg");
+  height: 421px;
+  margin: 0 0 46px;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-top: 350px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 14px 15px 16px;
+  background-color: white;
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  transform: translateY(-100%);
+  white-space: normal;
+  text-align: justify;
 }
