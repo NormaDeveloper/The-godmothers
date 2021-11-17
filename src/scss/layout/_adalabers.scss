@@ -1,0 +1,51 @@
+.adalabers {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .adalabers-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px;
+  }
+  .titles {
+    font-family: var(--title-font-family);
+    color: var(--brand-color);
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    margin: 15px 0 30px;
+  }
+  .adalabers-images {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15px;
+    border: 5px rgba(0, 0, 0, 0.08) solid;
+    border-radius: 4px;
+  }
+  .adalabers-names {
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    color: var(--black-color);
+  }
+  
+  .fab,
+  .fas {
+    margin: 15px 3px 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--brand-color);
+  }
+  
+  .dot {
+    font-size: 16px;
+    font-family: var(--primary-font-family);
+    color: var(--brand-color);
+  }

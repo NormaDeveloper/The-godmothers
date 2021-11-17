@@ -1,254 +1,257 @@
-// @import 'core/variables';
-// @import 'core/reset';
+@import 'core/variables';
+@import "core/reset";
 // @import 'components/code';
 // @import 'components/links';
 // @import 'layout/page';
-// @import 'layout/header';
-// @import 'layout/footer';
+@import 'layout/header';
+@import 'layout/about-us';
+@import 'layout/strengths-and-weakness';
+@import 'layout/adalabers';
+@import 'layout/footer';
 // @import 'pages/index';
 
-/* Custom properties */
-:root {
-    --brand-color: #099d8d;
-    --secondary-color: #14d9c4;
-    --black-color: #000;
-    --grey-color: #54585a;
-    --primary-font-family: "Open Sans", sans-serif;
-    --title-font-family: "Rubik", sans-serif;
-  }
-  
-  /*--------------- COMUNES -------------------*/
-  
-  body {
-    width: 100%;
-  }
-  
-  .text {
-    font-size: 16px;
-    font-family: var(--primary-font-family);
-    line-height: 24px;
-    text-align: center;
-    color: var(--grey-color);
-    margin-top: 15px;
-  }
-  
-  .container {
-    margin: 0px 15px;
-  }
-  
-  /* ------HEADER & HERO------- */
-  
-  .team-name {
-    background-color: var(--brand-color);
-    height: 60px;
-    padding: 15px 80px;
-    opacity: 0.95;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: var(--title-font-family);
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--secondary-color);
-    color: white;
-    height: 45px;
-    opacity: 0.9;
-    font-family: var(--title-font-family);
-    align-items: center;
-    font-weight: bold;
-  }
-  
-  .main-nav-a {
-    color: white;
-  }
-  
-  .ul-style-nav {
-    display: flex;
-  }
-  
-  .team-li {
-    margin: 10px 15px 0 0;
-    height: 30px;
-  }
-  
-  .about-us-li {
-    height: 30px;
-    margin: 10px 15px 0;
-  }
-  
-  .contact-li {
-    height: 30px;
-    margin: 10px 0 0 15px;
-  }
-  
-  .header-image {
-    background-image: url("../images/herono-mobile-v4.jpg");
-    height: 421px;
-    margin: 0 0 46px;
-    position: relative;
-  }
-  
-  .hero-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    margin-top: 350px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 14px 15px 16px;
-    background-color: white;
-    font-family: var(--primary-font-family);
-    font-size: 18px;
-    font-weight: 600;
-    transform: translateY(-100%);
-    white-space: normal;
-    text-align: justify;
-  }
-  
-  /*-------------- ABOUT US ------------------*/
-  
-  .about-us {
-    margin-bottom: 30px;
-    padding-top: 1px;
-  }
-  
-  .about-us .title {
-    line-height: 45px;
-    color: var(--secondary-color);
-    font-family: var(--title-font-family);
-    font-size: 24px;
-    text-align: center;
-    margin-top: 15px;
-  }
-  
-  .quote {
-    font-style: italic;
-  }
-  
-  /* -------FORTALEZAS Y DEBILIDADES------- */
-  
-  .strengths-and-weakness {
-    background-color: rgba(184, 184, 185, 0.2);
-  }
-  .title-strengths-and-weakness {
-    font-family: var(--title-font-family);
-    color: var(--brand-color);
-    font-size: 22px;
-    line-height: 45px;
-    text-align: center;
-  }
-  
-  .rectangle {
-    width: 30px;
-    height: 30px;
-    left: 50%;
-    position: relative;
-    transform: translate(-50%, -50%) rotate(45deg);
-    background-color: white;
-  }
-  
-  .fortalezas {
-    padding-bottom: 15px;
-  }
-  .debilidades {
-    padding-bottom: 30px;
-  }
-  
-  /* ------------- Adalabers ---------------- */
-  
-  .adalabers {
-    background-color: #fff;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .adalabers-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 50px;
-  }
-  .titles {
-    font-family: var(--title-font-family);
-    color: var(--brand-color);
-    font-size: 24px;
-    line-height: 45px;
-    text-align: center;
-    margin: 15px 0 30px;
-  }
-  .adalabers-images {
-    width: 180px;
-    height: 180px;
-    margin-bottom: 15px;
-    border: 5px rgba(0, 0, 0, 0.08) solid;
-    border-radius: 4px;
-  }
-  .adalabers-names {
-    font-family: var(--primary-font-family);
-    font-size: 20px;
-    line-height: 45px;
-    text-align: center;
-    color: var(--black-color);
-  }
-  
-  .fab,
-  .fas {
-    margin: 15px 3px 0;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--brand-color);
-  }
-  
-  .dot {
-    font-size: 16px;
-    font-family: var(--primary-font-family);
-    color: var(--brand-color);
-  }
-  
-  /* -------------------------------- FOOTER----------------------------------- */
-  
-  .footer {
-    border-top: 1px solid #b8b8b9;
-  }
-  .footer-container {
-    height: 290px;
-    margin: 0 15px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-family: var(--primary-font-family);
-    font-size: 14px;
-    padding-bottom: 45px;
-    padding-top: 30px;
-  }
-  .footer-copyright {
-    color: #b8b8b9;
-  }
-  .footer-img {
-    width: 115.9px;
-    height: 45px;
-    order: 1;
-  }
-  .footer-nav-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1.5;
-    font-weight: 600;
-  }
-  .footer-nav-a {
-    color: var(--grey-color);
-    text-decoration: none;
-  }
+// /* Custom properties */
+// :root {
+//   --brand-color: #099d8d;
+//   --secondary-color: #14d9c4;
+//   --black-color: #000;
+//   --grey-color: #54585a;
+//   --primary-font-family: "Open Sans", sans-serif;
+//   --title-font-family: "Rubik", sans-serif;
+// }
+
+/*--------------- COMUNES -------------------*/
+
+body {
+  width: 100%;
+}
+
+.text {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  line-height: 24px;
+  text-align: center;
+  color: var(--grey-color);
+  margin-top: 15px;
+}
+
+.container {
+  margin: 0px 15px;
+}
+
+/* ------HEADER & HERO------- */
+
+// .team-name {
+//   background-color: var(--brand-color);
+//   height: 60px;
+//   padding: 15px 80px;
+//   opacity: 0.95;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+//   font-family: var(--title-font-family);
+//   font-size: 16px;
+//   font-weight: bold;
+// }
+
+// .nav {
+//   display: flex;
+//   justify-content: space-around;
+//   background-color: var(--secondary-color);
+//   color: white;
+//   height: 45px;
+//   opacity: 0.9;
+//   font-family: var(--title-font-family);
+//   align-items: center;
+//   font-weight: bold;
+// }
+
+// .main-nav-a {
+//   color: white;
+// }
+
+// .ul-style-nav {
+//   display: flex;
+// }
+
+// .team-li {
+//   margin: 10px 15px 0 0;
+//   height: 30px;
+// }
+
+// .about-us-li {
+//   height: 30px;
+//   margin: 10px 15px 0;
+// }
+
+// .contact-li {
+//   height: 30px;
+//   margin: 10px 0 0 15px;
+// }
+
+// .header-image {
+//   background-image: url("../images/herono-mobile-v4.jpg");
+//   height: 421px;
+//   margin: 0 0 46px;
+//   position: relative;
+// }
+
+// .hero-text {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 80px;
+//   margin-top: 350px;
+//   margin-left: 5%;
+//   margin-right: 5%;
+//   padding: 14px 15px 16px;
+//   background-color: white;
+//   font-family: var(--primary-font-family);
+//   font-size: 18px;
+//   font-weight: 600;
+//   transform: translateY(-100%);
+//   white-space: normal;
+//   text-align: justify;
+// }
+
+/*-------------- ABOUT US ------------------*/
+
+// .about-us {
+//   margin-bottom: 30px;
+//   padding-top: 1px;
+// }
+
+// .about-us .title {
+//   line-height: 45px;
+//   color: var(--secondary-color);
+//   font-family: var(--title-font-family);
+//   font-size: 24px;
+//   text-align: center;
+//   margin-top: 15px;
+// }
+
+// .quote {
+//   font-style: italic;
+// }
+
+/* -------FORTALEZAS Y DEBILIDADES------- */
+
+// .strengths-and-weakness {
+//   background-color: rgba(184, 184, 185, 0.2);
+// }
+// .title-strengths-and-weakness {
+//   font-family: var(--title-font-family);
+//   color: var(--brand-color);
+//   font-size: 22px;
+//   line-height: 45px;
+//   text-align: center;
+// }
+
+// .rectangle {
+//   width: 30px;
+//   height: 30px;
+//   left: 50%;
+//   position: relative;
+//   transform: translate(-50%, -50%) rotate(45deg);
+//   background-color: white;
+// }
+
+// .fortalezas {
+//   padding-bottom: 15px;
+// }
+// .debilidades {
+//   padding-bottom: 30px;
+// }
+
+/* ------------- Adalabers ---------------- */
+
+// .adalabers {
+//   background-color: #fff;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+// .adalabers-article {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 0 0 50px;
+// }
+// .titles {
+//   font-family: var(--title-font-family);
+//   color: var(--brand-color);
+//   font-size: 24px;
+//   line-height: 45px;
+//   text-align: center;
+//   margin: 15px 0 30px;
+// }
+// .adalabers-images {
+//   width: 180px;
+//   height: 180px;
+//   margin-bottom: 15px;
+//   border: 5px rgba(0, 0, 0, 0.08) solid;
+//   border-radius: 4px;
+// }
+// .adalabers-names {
+//   font-family: var(--primary-font-family);
+//   font-size: 20px;
+//   line-height: 45px;
+//   text-align: center;
+//   color: var(--black-color);
+// }
+
+// .fab,
+// .fas {
+//   margin: 15px 3px 0;
+//   font-size: 16px;
+//   line-height: 30px;
+//   color: var(--brand-color);
+// }
+
+// .dot {
+//   font-size: 16px;
+//   font-family: var(--primary-font-family);
+//   color: var(--brand-color);
+// }
+
+/* -------------------------------- FOOTER----------------------------------- */
+
+// .footer {
+//   border-top: 1px solid #b8b8b9;
+// }
+// .footer-container {
+//   height: 290px;
+//   margin: 0 15px;
+//   box-sizing: border-box;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   align-items: center;
+//   font-family: var(--primary-font-family);
+//   font-size: 14px;
+//   padding-bottom: 45px;
+//   padding-top: 30px;
+// }
+// .footer-copyright {
+//   color: #b8b8b9;
+// }
+// .footer-img {
+//   width: 115.9px;
+//   height: 45px;
+//   order: 1;
+// }
+// .footer-nav-list {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   line-height: 1.5;
+//   font-weight: 600;
+// }
+// .footer-nav-a {
+//   color: var(--grey-color);
+//   text-decoration: none;
+// }
