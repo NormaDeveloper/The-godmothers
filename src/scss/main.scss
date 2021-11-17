@@ -261,10 +261,17 @@ body {
   .adalabers-article.reverse {
     flex-direction: row-reverse;
   }
+  .adalabers-article .text {
+  text-align: left;
+  }
+  .adalabers-article.reverse .text {
+    text-align: right;
+    }
   .adalabers-description {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
     background-color: rgb(228, 228, 159);
   }
   .adalabers {
