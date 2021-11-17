@@ -1,0 +1,26 @@
+.strengths-and-weakness {
+    background-color: rgba(184, 184, 185, 0.2);
+  }
+  .title-strengths-and-weakness {
+    font-family: var(--title-font-family);
+    color: var(--brand-color);
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+  }
+  
+  .rectangle {
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: white;
+  }
+  
+  .strengths {
+    padding-bottom: 15px;
+  }
+  .weakness {
+    padding-bottom: 30px;
+  }
