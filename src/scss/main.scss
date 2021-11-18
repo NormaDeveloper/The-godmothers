@@ -256,3 +256,10 @@ body {
 //   color: var(--grey-color);
 //   text-decoration: none;
 // }
+
+/* ------ FORM ------- */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
