@@ -1,0 +1,26 @@
+.form {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  line-height: 24px;
+  text-align: left;
+  color: var(--grey-color);
+  margin-top: 15px;
+}
+input {
+  height: 45px;
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+}
+// input::placeholder {
+//   font-family: var(--primary-font-family);
+//   font-size: 16px;
+//   color: var(--grey-color);
+// }
+.text.star {
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+textarea {
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+}
