@@ -46,6 +46,10 @@
 
 .main-nav-a {
   color: white;
+
+  @include tablet {
+    font-size: 15px;
+  }
 }
 
 .ul-style-nav {
@@ -57,18 +61,21 @@
 }
 
 .team-li {
-  margin: 10px 15px 0 0;
+  margin-left: 15px;
+  line-height: 30px;
   height: 30px;
 }
 
 .about-us-li {
+  margin-left: 15px;
   height: 30px;
-  margin: 10px 15px 0;
+  line-height: 30px;
 }
 
 .contact-li {
+  margin-left: 15px;
   height: 30px;
-  margin: 10px 0 0 15px;
+  line-height: 30px;
 }
 
 .header-image {
