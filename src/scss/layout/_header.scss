@@ -83,3 +83,13 @@
     display: none;
   }
 }
+
+.contact .header-image {
+  background-image: url("../images/contact-v1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 0 0 46px;
+  position: relative;
+}
