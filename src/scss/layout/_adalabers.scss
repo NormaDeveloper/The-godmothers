@@ -1,92 +1,100 @@
 .adalabers {
-    background-color: #fff;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adalabers-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 50px;
+  @include tablet {
+    flex-direction: row;
   }
-  .adalabers-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 50px;
-  }
-  .titles {
-    font-family: var(--title-font-family);
-    color: var(--brand-color);
-    font-size: 24px;
-    line-height: 45px;
-    text-align: center;
-    margin: 15px 0 30px;
-  }
-  .adalabers-images {
-    width: 180px;
-    height: 180px;
-    margin-bottom: 15px;
-    border: 5px rgba(0, 0, 0, 0.08) solid;
-    border-radius: 4px;
-  }
-  .adalabers-names {
-    font-family: var(--primary-font-family);
-    font-size: 20px;
-    line-height: 45px;
-    text-align: center;
-    color: var(--black-color);
-  }
-  
-  .fab,
-  .fas {
-    margin: 15px 3px 0;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--brand-color);
-  }
-  
-  .dot {
-    font-size: 16px;
-    font-family: var(--primary-font-family);
-    color: var(--brand-color);
-  }
-  
-  /* Quiénes somos versión tablet */
-@media all and (min-width: 768px) and (max-width: 1200px) {
-    .adalabers-article {
-      flex-direction: row;
-    }
-    .adalabers-article.reverse {
-      flex-direction: row-reverse;
-    }
-    .adalabers-article .text {
-    text-align: left;
-    }
-    .adalabers-article.reverse .text {
-      text-align: right;
-      }
-    .adalabers-description {
+  & .adalabers-description {
+    @include tablet {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      text-align: left;
       background-color: rgb(228, 228, 159);
     }
-    .adalabers {
-      background-color: rgb(93, 211, 211);
+  }
+  & .text {
+    @include tablet {
+      text-align: left;
     }
   }
-  /* Quiénes somos versión desktop */
-  @media all and (min-width: 1200px) {
-    .adalabers-article {
-      flex-direction: row;
-    }
-    .adalabers-article.reverse {
+  &.reverse {
+    @include tablet {
       flex-direction: row-reverse;
     }
-    .adalabers-description {
-      background-color: rgb(223, 166, 166);
+    & .text {
+      @include tablet {
+        text-align: right;
+      }
     }
-    .adalabers {
-      background-color: rgb(93, 211, 211);
+    & .adalabers-description {
+      @include tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
     }
   }
+}
+.titles {
+  font-family: var(--title-font-family);
+  color: var(--brand-color);
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  margin: 15px 0 30px;
+}
+.adalabers-images {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 15px;
+  border: 5px rgba(0, 0, 0, 0.08) solid;
+  border-radius: 4px;
+}
+.adalabers-names {
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.fab,
+.fas {
+  margin: 15px 3px 0;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--brand-color);
+}
+
+.dot {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  color: var(--brand-color);
+}
+
+/* Quiénes somos versión desktop */
+// @media all and (min-width: 1200px) {
+//   .adalabers-article {
+//     flex-direction: row;
+//   }
+//   .adalabers-article.reverse {
+//     flex-direction: row-reverse;
+//   }
+//   .adalabers-description {
+//     background-color: rgb(223, 166, 166);
+//   }
+//   .adalabers {
+//     background-color: rgb(93, 211, 211);
+//   }
+// }
