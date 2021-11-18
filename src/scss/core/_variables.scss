@@ -7,10 +7,22 @@
 
 /* Custom properties */
 :root {
-    --brand-color: #099d8d;
-    --secondary-color: #14d9c4;
-    --black-color: #000;
-    --grey-color: #54585a;
-    --primary-font-family: "Open Sans", sans-serif;
-    --title-font-family: "Rubik", sans-serif;
+  --brand-color: #099d8d;
+  --secondary-color: #14d9c4;
+  --black-color: #000;
+  --grey-color: #54585a;
+  --primary-font-family: "Open Sans", sans-serif;
+  --title-font-family: "Rubik", sans-serif;
+}
+
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
   }
+}
+
+@mixin desktop {
+  @media (min-width: 1200) {
+    @content;
+  }
+}
