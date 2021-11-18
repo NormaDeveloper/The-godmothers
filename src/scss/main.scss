@@ -1,13 +1,14 @@
-@import 'core/variables';
+@import "core/variables";
 @import "core/reset";
 // @import 'components/code';
 // @import 'components/links';
 // @import 'layout/page';
-@import 'layout/header';
-@import 'layout/about-us';
-@import 'layout/strengths-and-weakness';
-@import 'layout/adalabers';
-@import 'layout/footer';
+@import "layout/header";
+@import "layout/about-us";
+@import "layout/strengths-and-weakness";
+@import "layout/adalabers";
+@import "layout/footer";
+@import "layout/contact-description";
 // @import 'pages/index';
 
 // /* Custom properties */
@@ -157,10 +158,10 @@ body {
 //   background-color: white;
 // }
 
-// .fortalezas {
+// .strengths {
 //   padding-bottom: 15px;
 // }
-// .debilidades {
+// .weakness {
 //   padding-bottom: 30px;
 // }
 
@@ -255,3 +256,10 @@ body {
 //   color: var(--grey-color);
 //   text-decoration: none;
 // }
+
+/* ------ FORM ------- */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
