@@ -8,6 +8,8 @@
 @import "layout/strengths-and-weakness";
 @import "layout/adalabers";
 @import "layout/footer";
+@import "layout/contact-description";
+@import "layout/contact-form";
 // @import 'pages/index';
 
 // /* Custom properties */
@@ -254,3 +256,10 @@ body {
 //   color: var(--grey-color);
 //   text-decoration: none;
 // }
+
+/* ------ FORM ------- */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
