@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
- }
+}
 .adalabers-article {
   display: flex;
   flex-direction: column;
@@ -66,12 +66,12 @@
   @include tablet {
     width: 205px;
     height: 205px;
-    margin: 0px 30px 0px 30px
+    margin: 0px 30px 0px 30px;
   }
   @include desktop {
     width: 278px;
     height: 278px;
-    margin: 0px 45px 0px 45px
+    margin: 0px 45px 0px 45px;
   }
 }
 .adalabers-names {
@@ -94,20 +94,4 @@
   font-size: 16px;
   font-family: var(--primary-font-family);
   color: var(--brand-color);
-}
-
-/* Quiénes somos versión desktop */
-@media all and (min-width: 1200px) {
-  .adalabers-article {
-    flex-direction: row;
-  }
-  .adalabers-article.reverse {
-    flex-direction: row-reverse;
-  }
-  .adalabers-description {
-    background-color: rgb(223, 166, 166);
-  }
-  .adalabers {
-   
-  }
 }
