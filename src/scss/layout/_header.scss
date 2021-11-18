@@ -10,6 +10,18 @@
   font-family: var(--title-font-family);
   font-size: 16px;
   font-weight: bold;
+
+  @include tablet {
+    padding: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.team-name h1 {
+  @include tablet {
+    margin-left: 45px;
+  }
 }
 
 .nav {
@@ -22,6 +34,14 @@
   font-family: var(--title-font-family);
   align-items: center;
   font-weight: bold;
+
+  @include tablet {
+    height: 60px;
+    opacity: 0.95;
+    background-color: var(--brand-color);
+    width: 100%;
+    justify-content: flex-end;
+  }
 }
 
 .main-nav-a {
@@ -30,6 +50,10 @@
 
 .ul-style-nav {
   display: flex;
+
+  @include tablet {
+    margin-right: 45px;
+  }
 }
 
 .team-li {
@@ -52,6 +76,11 @@
   height: 421px;
   margin: 0 0 46px;
   position: relative;
+
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .hero-text {
@@ -70,6 +99,22 @@
   transform: translateY(-100%);
   white-space: normal;
   text-align: justify;
+
+  @include tablet {
+    opacity: 0.8;
+    width: 441px;
+    padding: 0;
+    margin: 0 0 0 46px;
+    position: absolute;
+    transform: translateY(0);
+    bottom: 0;
+  }
+}
+
+.hero-text p {
+  @include tablet {
+    margin: 15px 30px;
+  }
 }
 
 .contact .hero-text {
