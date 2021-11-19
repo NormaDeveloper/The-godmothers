@@ -79,7 +79,10 @@
 }
 
 .header-image {
-  background-image: url("../images/herono-mobile-v4.jpg");
+  background-image: url("../images/hero-grande-con-logo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 421px;
   margin: 0 0 46px;
   position: relative;
@@ -123,7 +126,21 @@
     margin: 15px 30px;
   }
 }
-
 .contact .hero-text {
   display: none;
+}
+@media all and (min-width: 768px) {
+  .header-image {
+    background-image: url("../images/hero-desktop-v4.jpg");
+  }
+}
+
+.contact .header-image {
+  background-image: url("../images/contact-v1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 0 0 46px;
+  position: relative;
 }
