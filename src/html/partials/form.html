@@ -1,35 +1,40 @@
 <form class="form" action="https://formspree.io/f/xayarara" method="post">
-  <label for="name">Nombre completo <span class="text star">*</span></label>
-  <input placeholder="Nombre..." id="name" type="text" name="name" required />
-
-  <label for="email">Email <span class="text star">*</span></label>
+  <label class="form name" for="name"
+    >Nombre completo <span class="text star">*</span></label
+  >
   <input
-    cass="mail"
-    id="email"
-    type="email"
-    name="email"
-    value="nombre.apellidos@mail.com"
+    class="form name"
+    placeholder="Nombre..."
+    id="name"
+    type="text"
+    name="name"
     required
   />
-
-  <label for="phone">Teléfono</label>
-  <input
-    class="phone"
-    placeholder="Ej: 123456789"
-    id="phone"
-    type="tel"
-    name="phone"
-  />
-
-  <label for="message">Mensaje <span class="text star">*</span></label>
-  <textarea
-    placeholder="¿Qué necesitas?"
-    name="message"
-    id="message"
-    cols="30"
-    rows="10"
-    required
-  ></textarea>
+  <div class="email">
+    <label for="email">Email <span class="text star">*</span></label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      value="nombre.apellidos@mail.com"
+      required
+    />
+  </div>
+  <div class="form phone">
+    <label for="phone">Teléfono</label>
+    <input placeholder="Ej: 123456789" id="phone" type="tel" name="phone" />
+  </div>
+  <div class="form message">
+    <label for="message">Mensaje <span class="text star">*</span></label>
+    <textarea
+      placeholder="¿Qué necesitas?"
+      name="message"
+      id="message"
+      cols="30"
+      rows="10"
+      required
+    ></textarea>
+  </div>
 
   <input type="submit" value="Enviar" />
 </form>
