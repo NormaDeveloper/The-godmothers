@@ -39,6 +39,10 @@ body {
 
 .container {
   margin: 0px 15px;
+
+  @include tablet {
+    margin: 0px 45px;
+  }
 }
 
 /* ------HEADER & HERO------- */
@@ -158,10 +162,10 @@ body {
 //   background-color: white;
 // }
 
-// .fortalezas {
+// .strengths {
 //   padding-bottom: 15px;
 // }
-// .debilidades {
+// .weakness {
 //   padding-bottom: 30px;
 // }
 
@@ -258,3 +262,8 @@ body {
 // }
 
 /* ------ FORM ------- */
+// .form {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 15px;
+// }
