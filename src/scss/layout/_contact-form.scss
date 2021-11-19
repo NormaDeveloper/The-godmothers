@@ -1,11 +1,14 @@
-.form {
-  padding: 15px;
+form {
   font-size: 16px;
   font-family: var(--primary-font-family);
   line-height: 24px;
   text-align: left;
   color: var(--grey-color);
-  margin-top: 15px;
+  padding: 60px 15px 60px 15px;
+}
+.text.star {
+  font-size: 12px;
+  color: var(--secondary-color);
 }
 input {
   width: 100%;
@@ -14,45 +17,50 @@ input {
   font-family: var(--primary-font-family);
   display: block;
   border: 1px solid #b8b8b9;
-  padding: 11px 15px 15px;
   box-sizing: border-box;
+  margin-bottom: 13px;
 }
-// ::placeholder {
-//   //   font-family: var(--primary-font-family);
-//   //   font-size: 16px;
-//   color: pink;
-// }
-.text.star {
-  font-size: 12px;
-  color: var(--secondary-color);
-}
+
 textarea {
+  box-sizing: border-box;
   width: 100%;
   font-family: var(--primary-font-family);
   font-size: 16px;
 }
-@media all and (min-width: 768px) {
-  .form {
-    display: flex;
-    flex-direction: row;
-    background-color: pink;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-  .email {
-    flex-grow: 1;
-    width: 20%;
-  }
-  .phone {
-    flex-grow: 1;
-    width: 20%;
-  }
-}
-
 input[type="submit"] {
   background-color: var(--brand-color);
   border-style: none;
   border-radius: 4px;
   color: #fff;
   text-transform: uppercase;
+  margin: 0px;
+}
+
+@media all and (min-width: 678px) {
+  form {
+    padding: 60px 163px 60px 163px;
+  }
+}
+
+@media all and (min-width: 924px) {
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .email {
+    flex-grow: 3;
+  }
+  .phone {
+    margin-left: 44px;
+    flex-grow: 1;
+  }
+  .message {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  input[type="submit"] {
+    width: 278px;
+    height: 45px;
+  }
 }
