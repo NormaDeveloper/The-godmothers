@@ -38,6 +38,10 @@ body {
 
 .container {
   margin: 0px 15px;
+
+  @include tablet {
+    margin: 0px 45px;
+  }
 }
 
 /* ------HEADER & HERO------- */
