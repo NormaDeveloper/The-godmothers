@@ -22,6 +22,9 @@
   @include tablet {
     margin-left: 45px;
   }
+  @include desktop {
+    margin-left: 142px;
+  }
 }
 
 .nav {
@@ -57,6 +60,9 @@
 
   @include tablet {
     margin-right: 45px;
+  }
+  @include desktop {
+    margin-right: 138px;
   }
 }
 
@@ -118,6 +124,14 @@
     position: absolute;
     transform: translateY(0);
     bottom: 0;
+  }
+
+  @include desktop {
+    margin-left: 138px;
+    font-size: 24px;
+    line-height: 30px;
+    height: 90px;
+    width: 574px;
   }
 }
 
