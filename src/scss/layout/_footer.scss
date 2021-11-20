@@ -58,9 +58,9 @@
 .footer-nav-a {
   color: var(--grey-color);
   text-decoration: none;
+  opacity: 0.75;
 
   @include tablet {
-    opacity: 0.75;
     line-height: 30px;
   }
 }
