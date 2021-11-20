@@ -43,6 +43,10 @@ body {
   @include tablet {
     margin: 0px 45px;
   }
+
+  @include desktop {
+    margin: 0px 138px;
+  }
 }
 
 /* ------HEADER & HERO------- */
