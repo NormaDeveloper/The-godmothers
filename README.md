@@ -59,7 +59,7 @@ The main and contact pages have an established design. The design is made for 3 
 ![](https://i.imgur.com/zQ1ugQg.png)
 
 2. Tablet, from 768px to 1200px
-   ![](https://i.imgur.com/KHUojPe.png)
+![](https://i.imgur.com/KHUojPe.png)
 
 3. Desktop, from 1200px
 
