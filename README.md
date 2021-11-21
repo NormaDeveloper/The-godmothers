@@ -1,15 +1,16 @@
-# First Collaborative Project at Adalab Bootcamp
+
+<h1 align="center">First Collaborative Project at Adalab Bootcamp</h1>
 
 <h2 align="center">The Godmothers: Passionate Front-End developers</h2>
 
 ![](https://i.imgur.com/xiV9FLB.png)
 
 <h3 align="center">Table of Contents</h3>
+<h5 align="center">1. Introduction</h5>
+<h5 align="center">2. Description</h5>
+<h5 align="center">3. User Stories</h5>
+<h5 align="center">4. Team members</h5>
 
-1. Introduction
-2. Description
-3. User Stories
-4. Team members
 
 ---
 
@@ -52,18 +53,19 @@ The website consists of several pages:
 
    On the contact page there will be a form that collects contact information such as full name, email, phone and message, and a button to submit it.
 
-The main and contact pages have an established design. The design is made for 3 device sizes:
+The main and contact pages have an established design. The design is made for 3 device sizes: 
 
-1. Mobile, under 768px
+
+<h4 align="left">1. Mobile, under 768px</h4>
+<h4 align="left"> 2. Tablet, from 768px to 1200px </h4>
+<h4 align="left">3. Desktop, from 1200px </h4>
 
 ![](https://i.imgur.com/zQ1ugQg.png)
 
-2. Tablet, from 768px to 1200px
-![](https://i.imgur.com/KHUojPe.png)
-
-3. Desktop, from 1200px
-
+![](https://i.imgur.com/6Yx41W5.png)
 ![](https://i.imgur.com/u5Gf326.png)
+
+
 
 ---
 
