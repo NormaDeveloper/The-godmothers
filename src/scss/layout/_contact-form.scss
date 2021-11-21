@@ -4,7 +4,7 @@ form {
   line-height: 24px;
   text-align: left;
   color: var(--grey-color);
-  padding: 60px 15px 60px 15px;
+  padding: 58px 15px 60px 15px;
 }
 .text.star {
   font-size: 12px;
@@ -19,6 +19,16 @@ input {
   border: 1px solid #b8b8b9;
   box-sizing: border-box;
   margin-bottom: 13px;
+  color: var(--grey-color);
+  padding-left: 15px;
+}
+input:focus {
+  outline: none;
+  border-color: var(--brand-color);
+}
+textarea:focus {
+  outline: plum;
+  border-color: var(--brand-color);
 }
 
 textarea {
@@ -26,6 +36,8 @@ textarea {
   width: 100%;
   font-family: var(--primary-font-family);
   font-size: 16px;
+  color: var(--grey-color);
+  padding-left: 15px;
 }
 input[type="submit"] {
   background-color: var(--brand-color);
@@ -34,11 +46,23 @@ input[type="submit"] {
   color: #fff;
   text-transform: uppercase;
   margin: 0px;
+  margin-top: 14px;
 }
 
 @media all and (min-width: 678px) {
   form {
     padding: 60px 163px 60px 163px;
+  }
+  input[type="submit"] {
+    width: 206px;
+    height: 45px;
+    margin-top: 30px;
+  }
+  .send {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
   }
 }
 
@@ -57,10 +81,16 @@ input[type="submit"] {
   }
   .message {
     width: 100%;
-    margin-bottom: 30px;
   }
   input[type="submit"] {
+    margin-top: 30px;
     width: 278px;
     height: 45px;
+  }
+  .send {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
   }
 }
