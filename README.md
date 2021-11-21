@@ -1,124 +1,111 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# First Collaborative Project at Adalab Bootcamp
 
-# Adalab web starter kit
+<h2 align="center">The Godmothers: Passionate Front-End developers</h2>
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+![](https://i.imgur.com/xiV9FLB.png)
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+<h3 align="center">Table of Contents</h3>
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+1. Introduction
+2. Description
+3. User Stories
+4. Team members
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+---
 
-## Guía de inicio rápido
+<h3 align="left">1. Introduction</h3>
+<p align="left">
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
+This repository includes the group project of Module 1 of the Web Development bootcamp of Adalab, a Front-End development course focused on women without previous programming knowledge.
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+This project has been carried out by 5 students and it has been our first collaborative website developed. For this we have created a website with the social information of all team members.
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+---
 
-```bash
-npm install
-```
+<h3 align="left">2. Description</h3>
 
-### Pasos para arrancar el proyecto:
+The website consists of several pages:
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+1. A Home page with the main information about the 5 members of the team.
+2. A Contact page with a form so anyone can get in touch with us.
 
-```bash
-npm start
-```
+- <h4 align="left">Technological stack applied in this project:</h4>
 
-Este comando:
+1. Layout: HTML5, CSS3, Flexbox, CSS Grid, SASS, BEM
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://gulpjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> </p>
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+2. Use of mediaqueries and other responsive design techniques so that the web adapts to the screen size of different devices
+3. Handling of Slack, GitHub, GitHub projects, GitHub pages, VSCode, Gulp, Terminal, Zeplin.
 
-### Pasos para publicar el proyecto en GitHub Pages:
+- <h4 align="left">Working methodology:</h4>
 
-Para generar tu página para producción ejecuta el comando:
+1. Planning and executing projects under the Scrum/Agile framework.
+2. Using git for project version control as a team
+3. Publishing the result to the Internet using GitHub Pages
+4. Implementation of Scrum as a reference framework for product development, always based on Agile values as key points of teamwork and continuous improvement
+5. Fluid communication among team members
 
-```bash
-npm run docs
-```
+   All pages have a header and a footer. In the header appears the name of the team and a navigation menu that remain fixed at the top of the window when scrolling. At the bottom of the page appears the copyright, another menu and the Adalab logo.
 
-Y a continuación:
+   On the main page, it appears a photo with the claim of the team. A "Team" section with its description and our strengths and weaknesses, a "About us" section with summarized information on each member team: name, photo, short bio and social links (Twitter, LinkedIn, GitHub and email).
 
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
+   On the contact page there will be a form that collects contact information such as full name, email, phone and message, and a button to submit it.
 
-Además, los comandos:
+The main and contact pages have an established design. The design is made for 3 device sizes:
 
-```bash
-npm run push-docs
-```
-o
+1. Mobile, under 768px
 
-```bash
-npm run deploy
-```
+![](https://i.imgur.com/zQ1ugQg.png)
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
+2. Tablet, from 768px to 1200px
+   ![](https://i.imgur.com/KHUojPe.png)
 
-## Flujo de archivos con Gulp
+3. Desktop, from 1200px
 
-Estas tareas de Gulp producen el siguiente flujo de archivos:
+![](https://i.imgur.com/u5Gf326.png)
 
-![Gulp flow](./gulp-flow.png)
+---
 
-## `gulpfile.js` y `config.json`
+<h3 align="left">3. User Stories</h3>
+<p align="left">
 
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
+For project management, we will use user stories, a tool to define the characteristics of a product.
 
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
+**1. Mobile version of the web**
+Develop the mobile version of the web (main page) with HTML and CSC Create the web content: texts and images Create the necessary infrastructure: repository on GitHub and with access for all team members
 
-## Estructura de carpetas
+**2. Responsive version of the web**
+Make the web for the rest of screen sizes (tablet, desktop)
 
-La estructura de carpetas tiene esta pinta:
+**3. Technology upgrade**
+Integration with gulp to automate tasks
+Divide HTML into partials
+Pass CSS to Sass (also using partials)
 
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
+**4. Contact Form**
+Make the contact form for all devices
+Make the submission work using the formspree.io service
 
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
+</p>
 
-## Vídeotutoriales del Starter kit
+---
 
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
+ <h3 align="left">4. Team members</h3>
+<p align="left">
 
-## Falta algo?
+Esther Fernández
+https://github.com/GitTher
 
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+Sofía Blas
+https://github.com/SofiaBManzano
+
+Ángeles Martínez
+https://github.com/AngelesMB
+
+Norma Rivas
+https://github.com/NormaDeveloper
+
+María Rodríguez
+https://github.com/mariarguezp
+
