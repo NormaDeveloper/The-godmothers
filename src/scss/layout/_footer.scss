@@ -24,7 +24,7 @@
     padding-top: 0;
   }
 }
-.footer-copyright {
+.footer__copyright {
   color: #b8b8b9;
 
   @include tablet {
@@ -32,7 +32,7 @@
     line-height: 20px;
   }
 }
-.footer-img {
+.footer__img {
   width: 115.9px;
   height: 45px;
   order: 1;
@@ -43,7 +43,7 @@
     transform: translateY(65px);
   }
 }
-.footer-nav-list {
+.footer__nav--list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@
     margin-top: 24px;
   }
 }
-.footer-nav-a {
+.footer__nav--a {
   color: var(--grey-color);
   text-decoration: none;
   opacity: 0.75;
