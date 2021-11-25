@@ -93,11 +93,11 @@
   height: 421px;
   margin: 0 0 46px;
   position: relative;
+}
 
-  @include tablet {
-    display: flex;
-    justify-content: space-between;
-  }
+@include tablet {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-text {
