@@ -1,41 +1,29 @@
 .about-us {
   margin-bottom: 30px;
   padding-top: 1px;
-}
 
-.about-us .title {
-  line-height: 45px;
-  color: var(--secondary-color);
-  font-family: var(--title-font-family);
-  font-size: 24px;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.quote {
-  font-style: italic;
-}
-
-/* -------- TABLET ------- */
-
-@media all and (min-width: 768px) {
-  /*-------------- ABOUT US ------------------*/
-
-  .about-us {
+  @include tablet {
     padding: 0px 45px 30px;
     display: flex;
     justify-content: center;
   }
-}
 
-/* -------- DESKTOP ------- */
-
-@media all and (min-width: 1200px) {
-  /*-------------- ABOUT US  ------------------*/
-
-  .about-us {
+  @include desktop {
     margin-bottom: 60px;
     padding: 0px 300px 0px;
     align-items: center;
+  }
+
+  &__title {
+    line-height: 45px;
+    color: var(--secondary-color);
+    font-family: var(--title-font-family);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  &__quote {
+    font-style: italic;
   }
 }
