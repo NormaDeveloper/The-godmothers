@@ -86,7 +86,7 @@
 }
 
 .header-image {
-  background-image: url("../images/hero-grande-con-logo.jpg");
+  background-image: url("../images/hero-grande.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,7 +146,7 @@
 }
 @media all and (min-width: 768px) {
   .header-image {
-    background-image: url("../images/hero-desktop-v4.jpg");
+    background-image: url("../images/hero-desktop-sinlogo.jpg");
   }
 }
 
@@ -158,4 +158,62 @@
   height: 300px;
   margin: 0 0 46px;
   position: relative;
+}
+.logo {
+  width: 100vw;
+  height: 421px;
+  margin: 0 0 46px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  &__title {
+    width: 100vw;
+    height: 421px;
+    font-family: godfather;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 90px;
+    text-transform: capitalize;
+    position: relative;
+    transform: translate(20%, 15%);
+    word-spacing: 100vw;
+    line-height: 70px;
+    transform-origin: center;
+    animation-name: intro;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    @keyframes intro {
+      from {
+        opacity: 0;
+        letter-spacing: 10px;
+      }
+      to {
+        opacity: 1;
+        letter-spacing: 1;
+      }
+    }
+  }
+  &__computer {
+    position: absolute;
+    width: 110px;
+    transform: translate(150%, 80%) scale(1);
+    opacity: 1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-name: opacity;
+    @keyframes opacity {
+      0% {
+        opacity: 0;
+      }
+      25% {
+        transform: translate(150%, 80%) scale(1.05);
+        opacity: 0;
+      }
+      100% {
+        transform: translate(150%, 80%) scale(1);
+
+        opacity: 1;
+      }
+    }
+  }
 }
