@@ -1,24 +1,30 @@
-.contact-description {
+.contactDescription {
   margin-top: -16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.contact-description .title {
-  line-height: 45px;
-  color: var(--brand-color);
-  font-family: var(--title-font-family);
-  font-size: 24px;
-  text-transform: uppercase;
-  text-align: center;
+  @media all and (min-width: 1200px) {
+    .contact-description {
+      margin-top: 0;
+    }
+  }
+
+  &__title {
+    line-height: 45px;
+    color: var(--brand-color);
+    font-family: var(--title-font-family);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
 
 .text.small {
   font-size: 12px;
 }
 
-.text .star {
+.text.star {
   font-size: 12px;
   color: var(--secondary-color);
 }
@@ -28,11 +34,9 @@
     max-width: 442px;
   }
 }
+
 @media all and (min-width: 1200px) {
   .text {
     max-width: 601px;
-  }
-  .contact-description {
-    margin-top: 0;
   }
 }
