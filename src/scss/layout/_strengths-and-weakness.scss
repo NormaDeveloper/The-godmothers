@@ -1,82 +1,51 @@
 .strengths-and-weakness {
   background-color: rgba(184, 184, 185, 0.2);
-}
-.title-strengths-and-weakness {
-  font-family: var(--title-font-family);
-  color: var(--brand-color);
-  font-size: 22px;
-  line-height: 45px;
-  text-align: center;
-}
 
-.rectangle {
-  width: 30px;
-  height: 30px;
-  left: 50%;
-  position: relative;
-  transform: translate(-50%, -50%) rotate(45deg);
-  background-color: white;
-}
-
-.strengths {
-  padding-bottom: 15px;
-}
-.weakness {
-  padding-bottom: 30px;
-}
-
-/* -------- TABLET ------- */
-
-@media all and (min-width: 768px) {
-  /*-------------- ABOUT US ------------------*/
-
-  .about-us {
-    padding: 0px 45px 30px;
-  }
-
-  /* -------FORTALEZAS Y DEBILIDADES------- */
-  .strengths-and-weakness-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // padding: 0px 45px;
-    // margin: 0px;
-  }
-
-  .weakness,
-  .strengths {
-    width: 324px;
-    padding: 0px 15px 0px;
-    box-sizing: content-box;
-  }
-
-  .strengths-and-weakness {
+  @include tablet {
     height: 333px;
   }
-}
 
-/* -------- DESKTOP ------- */
-
-@media all and (min-width: 1200px) {
-  /*-------------- ABOUT US  ------------------*/
-
-  .about-us {
-    margin-bottom: 60px;
-    padding: 0px 300px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  /* -------FORTALEZAS Y DEBILIDADES------- */
-
-  .weakness,
-  .strengths {
-    width: 439px;
-    padding: 0px 44px 0px;
-  }
-
-  .strengths-and-weakness {
+  @include desktop {
     height: 309px;
+  }
+
+  &__rectangle {
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: white;
+  }
+
+  &__title {
+    font-family: var(--title-font-family);
+    color: var(--brand-color);
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  &__strengths {
+    padding-bottom: 15px;
+  }
+
+  &__weakness {
+    padding-bottom: 30px;
+  }
+
+  @include tablet {
+    &__div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__weakness,
+    &__strengths {
+      width: 324px;
+      padding: 0px 15px 0px;
+      box-sizing: content-box;
+    }
   }
 }
