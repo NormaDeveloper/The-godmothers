@@ -117,9 +117,14 @@
     color: var(--grey-color);
     text-decoration: none;
     opacity: 0.75;
+    transition: all ease 0.5s;
 
     @include tablet {
       line-height: 30px;
+    }
+    &:hover {
+      color: var(--brand-color);
+      transform: translateY(-3px);
     }
   }
 }
