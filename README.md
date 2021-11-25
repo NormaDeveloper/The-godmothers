@@ -7,9 +7,10 @@
 
 <h3 align="center">Table of Contents</h3>
 <h5 align="center">1. Introduction</h5>
-<h5 align="center">2. Description</h5>
-<h5 align="center">3. User Stories</h5>
-<h5 align="center">4. Team members</h5>
+<h5 align="center">2. Installation</h5>
+<h5 align="center">3. Description</h5>
+<h5 align="center">4. User Stories</h5>
+<h5 align="center">5. Team members</h5>
 
 
 ---
@@ -22,8 +23,28 @@ This repository includes the group project of Module 1 of the Web Development bo
 This project has been carried out by 5 students and it has been our first collaborative website developed. For this we have created a website with the social information of all team members.
 
 ---
+   <h3 align="left">2. Installation</h3>
+It requires node.js
+   
+Run the following commands in order to have the code up and running on your machine:
+   
+  
+```bash
+   # installs dependencies 
+  npm install
+   # Runs the app in the development mode.
+   # Open http://localhost:3000 to view it in the browser.
+   # The page will reload if you make edits.
+   # You will also see any errors in the console.
+  npm start
+``` 
+   
 
-<h3 align="left">2. Description</h3>
+
+   
+ ---
+
+<h3 align="left">3. Description</h3>
 
 The website consists of several pages:
 
@@ -69,7 +90,7 @@ The main and contact pages have an established design. The design is made for 3 
 
 ---
 
-<h3 align="left">3. User Stories</h3>
+<h3 align="left">4. User Stories</h3>
 <p align="left">
 
 For project management, we will use user stories, a tool to define the characteristics of a product.
@@ -93,7 +114,7 @@ Make the submission work using the formspree.io service
 
 ---
 
- <h3 align="left">4. Team members</h3>
+ <h3 align="left">5. Team members</h3>
 <p align="left">
 
 Esther Fernández
