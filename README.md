@@ -1,4 +1,3 @@
-
 <h1 align="center">First Collaborative Project at Adalab Bootcamp</h1>
 
 <h2 align="center">The Godmothers: Passionate Front-End developers</h2>
@@ -12,7 +11,6 @@
 <h5 align="center">4. User Stories</h5>
 <h5 align="center">5. Team members</h5>
 
-
 ---
 
 <h3 align="left">1. Introduction</h3>
@@ -23,6 +21,7 @@ This repository includes the group project of Module 1 of the Web Development bo
 This project has been carried out by 5 students and it has been our first collaborative website developed. For this we have created a website with the social information of all team members.
 
 ---
+
    <h3 align="left">2. Installation</h3>
 It requires node.js
    
@@ -38,11 +37,9 @@ Run the following commands in order to have the code up and running on your mach
    # You will also see any errors in the console.
   npm start
 ``` 
-   
 
 
-   
- ---
+---
 
 <h3 align="left">3. Description</h3>
 
@@ -74,8 +71,7 @@ The website consists of several pages:
 
    On the contact page there will be a form that collects contact information such as full name, email, phone and message, and a button to submit it.
 
-The main and contact pages have an established design. The design is made for 3 device sizes: 
-
+The main and contact pages have an established design. The design is made for 3 device sizes:
 
 <h4 align="left">1. Mobile, under 768px</h4>
 <h4 align="left"> 2. Tablet, from 768px to 1200px </h4>
@@ -85,8 +81,6 @@ The main and contact pages have an established design. The design is made for 3 
 
 ![](https://i.imgur.com/6Yx41W5.png)
 ![](https://i.imgur.com/u5Gf326.png)
-
-
 
 ---
 
@@ -131,4 +125,3 @@ https://github.com/NormaDeveloper
 
 María Rodríguez
 https://github.com/mariarguezp
-
