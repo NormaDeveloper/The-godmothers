@@ -5,13 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // Estilos títulos nombres
-  &-names {
-    font-family: var(--primary-font-family);
-    font-size: 20px;
+  // Título principal sección
+  &-mainTitle {
+    font-family: var(--title-font-family);
+    color: var(--brand-color);
+    font-size: 24px;
     line-height: 45px;
     text-align: center;
-    color: var(--black-color);
+    margin: 15px 0 30px;
   }
   // Imagen y texto/items uno debajo del otro
   &-article {
@@ -20,7 +21,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 0 50px;
-    // Imagen y texto/itemos uno al lado del otro
+    // Imagen y texto/items uno al lado del otro
     @include tablet {
       flex-direction: row;
     }
@@ -32,22 +33,18 @@
         align-items: flex-start;
       }
     }
+    // Estilo texto alineado a la izquierda
     & .text {
       @include tablet {
         text-align: left;
       }
     }
-    // Solo a partir de tablet las fotos se alternan izq der
+    // Solo a partir de tablet los article con clase reverse se alternan izq der
     &.reverse {
       @include tablet {
         flex-direction: row-reverse;
       }
-      // Alineamos texto e items alternados a la der pegados a la foto
-      & .text {
-        @include tablet {
-          text-align: right;
-        }
-      }
+      // Alineamos texto e items a la der pegados a la foto
       & .adalabers-description {
         @include tablet {
           display: flex;
@@ -55,14 +52,13 @@
           align-items: flex-end;
         }
       }
+      // Estilo texto alineado a la derecha
+      & .text {
+        @include tablet {
+          text-align: right;
+        }
+      }
     }
-  }
-  // Centramos enlaces
-  &-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
   }
   // Fijamos tamaños img
   &-images {
@@ -82,34 +78,39 @@
       margin: 0px 45px 0px 45px;
     }
   }
-}
-// Título principal sección
-.titles {
-  font-family: var(--title-font-family);
-  color: var(--brand-color);
-  font-size: 24px;
-  line-height: 45px;
-  text-align: center;
-  margin: 15px 0 30px;
-}
-// Iconos y puntos entre ellos
-.fab,
-.fas {
-  margin: 15px 3px 0;
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--brand-color);
-  display: inline;
-  padding: 2px;
-  transition: all 0.5s ease;
-  &:hover {
-    border: 1px solid var(--secondary-color);
-    box-shadow: 0 0 15px var(--brand-color);
+  // Estilos títulos nombres
+  &-names {
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    color: var(--black-color);
   }
-}
-.dot {
-  font-size: 16px;
-  font-family: var(--primary-font-family);
-  color: var(--brand-color);
-  padding: 2px;
+  // Centramos enlaces
+  &-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    // Estilos iconos y puntos entre ellos
+    & .socialNetwork {
+      margin: 15px 3px 0;
+      font-size: 16px;
+      line-height: 30px;
+      color: var(--brand-color);
+      display: inline;
+      padding: 2px;
+      transition: all 0.5s ease;
+      &:hover {
+        border: 1px solid var(--secondary-color);
+        box-shadow: 0 0 15px var(--brand-color);
+      }
+    }
+    & .dot {
+      font-size: 16px;
+      font-family: var(--primary-font-family);
+      color: var(--brand-color);
+      padding: 2px;
+    }
+  }
 }
