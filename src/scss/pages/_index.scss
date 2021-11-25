@@ -1,4 +1,26 @@
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px;
+/*--------------- COMUNES -------------------*/
+
+body {
+  width: 100%;
+}
+
+.text {
+  font-size: 16px;
+  font-family: var(--primary-font-family);
+  line-height: 24px;
+  text-align: center;
+  color: var(--grey-color);
+  margin-top: 15px;
+}
+
+.container {
+  margin: 0px 15px;
+
+  @include tablet {
+    margin: 0px 45px;
+  }
+
+  @include desktop {
+    margin: 0px 138px;
+  }
 }
