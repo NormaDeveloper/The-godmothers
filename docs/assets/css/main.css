@@ -130,7 +130,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.team-name {
+.header__team {
   background-color: var(--brand-color);
   height: 60px;
   padding: 15px 80px;
@@ -144,19 +144,19 @@ table {
   font-weight: bold;
 }
 @media (min-width: 768px) {
-  .team-name {
+  .header__team {
     padding: 0;
     width: 100%;
     justify-content: flex-start;
   }
 }
 @media (min-width: 768px) {
-  .team-name h1 {
+  .header__team h1 {
     margin-left: 45px;
   }
 }
 @media (min-width: 1200px) {
-  .team-name h1 {
+  .header__team h1 {
     margin-left: 142px;
   }
 }
@@ -217,7 +217,7 @@ table {
   height: 30px;
   line-height: 30px;
 }
-.header-image {
+.header {
   background-image: url("../images/hero-grande-con-logo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -227,7 +227,7 @@ table {
   position: relative;
 }
 @media (min-width: 768px) {
-  .header-image {
+  .header {
     display: flex;
     justify-content: space-between;
   }
@@ -278,11 +278,11 @@ table {
   display: none;
 }
 @media all and (min-width: 768px) {
-  .header-image {
+  .header {
     background-image: url("../images/hero-desktop-v4.jpg");
   }
 }
-.contact .header-image {
+.contact .header {
   background-image: url("../images/contact-v1.jpg");
   background-position: center center;
   background-repeat: no-repeat;

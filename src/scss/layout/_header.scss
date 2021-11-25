@@ -18,6 +18,11 @@
   }
 }
 
+.team-name-link {
+  color: white;
+  text-decoration: none;
+}
+
 .team-name h1 {
   @include tablet {
     margin-left: 45px;
