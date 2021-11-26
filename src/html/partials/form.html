@@ -8,7 +8,7 @@
     id="name"
     type="text"
     name="name"
-    required
+    required pattern="^[a-zA-Z]{2,20}$"
   />
   <div class="email">
     <label for="email">Email <span class="text star">*</span></label>
@@ -22,7 +22,7 @@
   </div>
   <div class="form phone">
     <label for="phone">Teléfono</label>
-    <input placeholder="Ej: 123456789" id="phone" type="tel" name="phone" />
+    <input placeholder="Ej: 123456789" id="phone" type="tel" name="phone" pattern="^[0-9]{9}$"/>
   </div>
   <div class="form message">
     <label for="message">Mensaje <span class="text star">*</span></label>
