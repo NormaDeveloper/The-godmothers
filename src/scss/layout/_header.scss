@@ -151,23 +151,26 @@
   margin: 0 0 46px;
   position: relative;
 }
+.contact .logo {
+  display: none;
+}
 .logo {
   top: 0;
   width: 100vw;
   height: 421px;
-  margin: 0 0 46px;
+  margin-top: 100px;
   position: absolute;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  z-index: -20;
   @include tablet {
     display: flex;
     align-items: flex-end;
     justify-content: left;
+    margin-top: 60px;
   }
   &__title {
-    padding-bottom: 60px;
+    padding-bottom: 160px;
     text-align: center;
     width: 250px;
     display: flex;
@@ -178,7 +181,6 @@
     font-size: 90px;
     text-transform: capitalize;
     letter-spacing: 0px;
-    // word-spacing: 100vw;
     line-height: 70px;
     animation-name: intro;
     animation-duration: 3s;
@@ -195,7 +197,7 @@
     }
     @include tablet {
       padding-left: 50px;
-      padding-bottom: 60px;
+      padding-bottom: 120px;
       width: 400px;
       font-size: 150px;
       word-spacing: 100vw;
@@ -203,7 +205,7 @@
     }
     @include desktop {
       padding-left: 140px;
-      padding-bottom: 70px;
+      padding-bottom: 125px;
       @keyframes intro {
         from {
           opacity: 0;
