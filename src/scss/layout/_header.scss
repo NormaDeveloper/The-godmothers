@@ -165,60 +165,69 @@
   position: relative;
 }
 .logo {
+  top: 0;
   width: 100vw;
   height: 421px;
   margin: 0 0 46px;
   position: absolute;
   display: flex;
+  align-items: flex-end;
   justify-content: center;
+  @include tablet {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+  }
   &__title {
-    width: 100vw;
-    height: 421px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
     font-family: godfather;
     color: white;
     margin-bottom: 50px;
     font-size: 90px;
     text-transform: capitalize;
-    position: relative;
-    transform: translate(20%, 15%);
     word-spacing: 100vw;
     line-height: 70px;
-    transform-origin: center;
     animation-name: intro;
     animation-duration: 3s;
     animation-iteration-count: 1;
     @keyframes intro {
       from {
         opacity: 0;
-        letter-spacing: 10px;
+        letter-spacing: 15px;
       }
       to {
         opacity: 1;
-        letter-spacing: 1;
+        letter-spacing: 1px;
       }
     }
-  }
-  &__computer {
-    position: absolute;
-    width: 110px;
-    transform: translate(150%, 80%) scale(1);
-    opacity: 1;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-name: opacity;
-    @keyframes opacity {
-      0% {
-        opacity: 0;
+    @include tablet {
+      padding-left: 50px;
+      padding-bottom: 60px;
+      width: 400px;
+      font-size: 150px;
+      word-spacing: 100vw;
+      line-height: 110px;
+    }
+    @include desktop {
+      padding-left: 140px;
+      padding-bottom: 70px;
+      @keyframes intro {
+        from {
+          opacity: 0;
+          letter-spacing: 20px;
+        }
+        to {
+          opacity: 1;
+          letter-spacing: 1px;
+        }
       }
-      25% {
-        transform: translate(150%, 80%) scale(1.05);
-        opacity: 0;
-      }
-      100% {
-        transform: translate(150%, 80%) scale(1);
-
-        opacity: 1;
-      }
+    }
+    &--computer {
+      width: 50%;
     }
   }
 }
