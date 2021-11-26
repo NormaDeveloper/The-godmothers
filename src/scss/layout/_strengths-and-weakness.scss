@@ -48,4 +48,8 @@
       box-sizing: content-box;
     }
   }
+
+  @include desktop {
+    padding: 0px 22.5px 0px;
+  }
 }
