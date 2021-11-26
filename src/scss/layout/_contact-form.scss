@@ -61,7 +61,7 @@ input[type="submit"] {
   text-transform: uppercase;
   margin: 0px;
   margin-top: 14px;
-  
+
   /*Transición botón enviar*/
   transition: box-shadow linear 0.3s, background-color linear 0.3s;
 
@@ -93,16 +93,22 @@ input[type="submit"] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 979px;
+    text-align: center;
+    margin: 0px auto;
   }
   .email {
     flex-grow: 3;
+    text-align: left;
   }
   .phone {
     margin-left: 44px;
     flex-grow: 1;
+    text-align: left;
   }
   .message {
     width: 100%;
+    text-align: left;
   }
   input[type="submit"] {
     margin-top: 30px;

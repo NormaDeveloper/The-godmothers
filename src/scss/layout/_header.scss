@@ -1,95 +1,3 @@
-.team-name {
-  background-color: var(--brand-color);
-  height: 60px;
-  padding: 15px 80px;
-  opacity: 0.95;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: var(--title-font-family);
-  font-size: 16px;
-  font-weight: bold;
-
-  @include tablet {
-    padding: 0;
-    width: 100%;
-    justify-content: flex-start;
-  }
-}
-
-.team-name-link {
-  color: white;
-  text-decoration: none;
-}
-
-.team-name h1 {
-  @include tablet {
-    margin-left: 45px;
-  }
-  @include desktop {
-    margin-left: 142px;
-  }
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--secondary-color);
-  color: white;
-  height: 45px;
-  opacity: 0.9;
-  font-family: var(--title-font-family);
-  align-items: center;
-  font-weight: bold;
-
-  @include tablet {
-    height: 60px;
-    opacity: 0.95;
-    background-color: var(--brand-color);
-    width: 100%;
-    justify-content: flex-end;
-  }
-}
-
-.main-nav-a {
-  color: white;
-  font-size: 15px;
-
-  @include tablet {
-    font-size: 15px;
-  }
-}
-
-.ul-style-nav {
-  display: flex;
-
-  @include tablet {
-    margin-right: 45px;
-  }
-  @include desktop {
-    margin-right: 138px;
-  }
-}
-
-.team-li {
-  margin-left: 15px;
-  line-height: 30px;
-  height: 30px;
-}
-
-.about-us-li {
-  margin-left: 15px;
-  height: 30px;
-  line-height: 30px;
-}
-
-.contact-li {
-  margin-left: 15px;
-  height: 30px;
-  line-height: 30px;
-}
-
 .header-image {
   background-image: url("../images/hero-grande-con-logo.jpg");
   background-position: center center;
@@ -98,11 +6,90 @@
   height: 421px;
   margin: 0 0 46px;
   position: relative;
+}
+
+.nav {
+  background-color: var(--secondary-color);
+  color: white;
+  opacity: 0.9;
+  font-family: var(--title-font-family);
+  align-items: center;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 16px 1fr 17px;
+  grid-template-rows: 60px 45px;
 
   @include tablet {
-    display: flex;
-    justify-content: space-between;
+    opacity: 0.95;
+    background-color: var(--brand-color);
+    width: 100%;
+    justify-content: flex-end;
+    grid-template-columns: 45px 1fr 1fr 45px;
+    grid-template-rows: 60px;
   }
+  @include desktop {
+    grid-template-columns: 1fr 490px 490px 1fr;
+  }
+}
+
+.team-name {
+  background-color: var(--brand-color);
+  opacity: 0.95;
+  color: white;
+  font-family: var(--title-font-family);
+  font-size: 16px;
+  font-weight: bold;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: center;
+  line-height: 60px;
+
+  @include tablet {
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}
+
+.team-name-link {
+  color: white;
+  text-decoration: none;
+}
+
+.ul-style-nav {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/4;
+  grid-row: 2/3;
+
+  @include tablet {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-content: flex-end;
+  }
+  @include desktop {
+  }
+}
+
+.main-nav-a {
+  color: white;
+  font-size: 15px;
+}
+
+.team-li {
+  line-height: 45px;
+}
+
+.about-us-li {
+  margin-left: 15px;
+  line-height: 45px;
+}
+
+.contact-li {
+  margin-left: 15px;
+  line-height: 45px;
 }
 
 .hero-text {
