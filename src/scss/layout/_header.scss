@@ -56,6 +56,11 @@
 .team-name-link {
   color: white;
   text-decoration: none;
+  transition: all ease 0.5s;
+  &:hover {
+    color: var(--secondary-color);
+    transform: translateY(-3px);
+  }
 }
 
 .ul-style-nav {
@@ -76,6 +81,11 @@
 .main-nav-a {
   color: white;
   font-size: 15px;
+  transition: all ease 0.5s;
+  &:hover {
+    color: var(--secondary-color);
+    transform: translateY(-3px);
+  }
 }
 
 .team-li {
