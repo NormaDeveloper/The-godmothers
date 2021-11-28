@@ -48,59 +48,42 @@
 
 
     <main>
-      <section class="contactDescription" id="contact-description">
+      <section class="contact-description" id="contact-description">
         <div class="container">
-          <h2 class="contactDescription__title">Contacto</h2>
+          <h2 class="contact-description__title">Contacto</h2>
           <p class="text">
-            Si deseas consultar mayor información sobre nuestros servicios o tienes alguna duda al respecto, no dudes en contactar con nosotras, te haremos una oferta que no podrás rechazar...
+            Si deseas consultar mayor información sobre nuestros servicios o tienes
+            alguna duda al respecto, no dudes en contactar con nosotras, te haremos
+            una oferta que no podrás rechazar...
           </p>
-          <p class="text small">
-            Todos los campos marcados con <span class="text star">*</span> son obligatorios.
+          <p class="contact-description__small">
+            Todos los campos marcados con
+            <span class="contact-description__small--star">*</span> son obligatorios.
           </p>
         </div>
       </section>
+
       <form class="form" action="https://formspree.io/f/xayarara" method="post">
-        <label class="form name" for="name"
-          >Nombre completo <span class="text star">*</span></label
-        >
-        <input
-          class="form name"
-          placeholder="Nombre..."
-          id="name"
-          type="text"
-          name="name"
-          required
-        />
+        <label class="form name" for="name">Nombre completo <span class="text star">*</span></label>
+        <input class="form name" placeholder="Nombre..." id="name" type="text" name="name" required
+          pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" />
         <div class="email">
           <label for="email">Email <span class="text star">*</span></label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="nombre.apellidos@mail.com"
-            required
-          />
+          <input id="email" type="email" name="email" placeholder="nombre.apellidos@mail.com" required />
         </div>
         <div class="form phone">
           <label for="phone">Teléfono</label>
-          <input placeholder="Ej: 123456789" id="phone" type="tel" name="phone" />
+          <input placeholder="Ej: 123456789" id="phone" type="tel" name="phone"
+            pattern="^(\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}" />
         </div>
         <div class="form message">
           <label for="message">Mensaje <span class="text star">*</span></label>
-          <textarea
-            placeholder="¿Qué necesitas?"
-            name="message"
-            id="message"
-            cols="30"
-            rows="6"
-            required
-          ></textarea>
+          <textarea placeholder="¿Qué necesitas?" name="message" id="message" cols="30" rows="6" required></textarea>
         </div>
         <div class="send">
           <input type="submit" value="Enviar" />
         </div>
       </form>
-
      
     </main>
     <footer class="footer">
