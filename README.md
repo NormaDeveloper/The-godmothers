@@ -111,17 +111,15 @@ Make the submission work using the formspree.io service
  <h3 align="left">5. Team members</h3>
 <p align="left">
 
-Esther Fernández
-https://github.com/GitTher
+    
+    
+    
+[Esther Fernández](https://github.com/GitTher)
 
-Sofía Blas
-https://github.com/SofiaBManzano
+[Sofía Blas](https://github.com/SofiaBManzano)
 
-Ángeles Martínez
-https://github.com/AngelesMB
+[Ángeles Martínez](https://github.com/AngelesMB)
 
-Norma Rivas
-https://github.com/NormaDeveloper
-
-María Rodríguez
-https://github.com/mariarguezp
+[María Rodríguez](https://github.com/mariarguezp)
+   
+[Norma Rivas](https://github.com/NormaDeveloper)
